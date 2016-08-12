@@ -1,0 +1,157 @@
+body{
+	width:1024px;
+	height:768px;
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: black;
+	background-image: url("assets/openerAnim.gif");
+	background-repeat: no-repeat;
+}
+
+h1 {
+	font-family: 'Ubuntu Mono';
+	font-weight: 400;
+	font-size: 8em;
+	color: white;
+	display: inline-block;
+	text-align: center;
+	letter-spacing: .25em;
+	margin: 0;
+	padding-top: 21%;
+	visibility: hidden;
+}
+
+
+h2 {
+	font-family: 'Ubuntu Mono';
+	font-weight: 400;
+	font-size: 3.25em;
+	color: white;
+	text-align: center;
+	letter-spacing: .25em;
+	margin: 0;
+	padding-top: 4%;
+}
+
+h3 {
+	font-family: 'Ubuntu Mono';
+	font-weight: 400;
+	font-size: 10em;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	letter-spacing: 0;
+/*	line-height: 60%;*/
+	margin-top:0;
+}
+p {
+	font-family: 'Ubuntu Mono';
+	font-weight: 400;
+	font-size: 1.1em;
+	color: white;
+	text-align: center;
+	letter-spacing: 0;
+	/*line-height: 102%;*/
+}
+
+.nameHolder{
+	display: block;
+	text-align: center;
+}
+
+.circleHolder{
+	display: block;
+	text-align: center;
+	margin-top:10%;
+}
+
+.popUp {
+	width:835px;
+	height:626px;
+	/*opacity:.75;*/
+	position: absolute;
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+	left: 0;
+	right: 0;
+	background-color: #122335;
+	visibility: hidden;
+	z-index: 100	;
+}
+
+.screenImage {
+	width:80%;
+	height:80%;
+	opacity:1;
+	background-color: #FFFFFF;
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 2%;
+	left: 0;
+	right: 0;
+}
+
+.screenImage0 {
+	width:auto;
+	height:360px;
+	/*background-image:url("assets/groupAssign_3.jpg");*/
+/*	opacity:1;*/
+	background-color: #122335;
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 10%;
+	left: 0;
+	right: 0;
+}
+
+.screenImage3 {
+	width:675px;
+	height:auto;
+	/*background-image:url("assets/groupAssign_3.jpg");*/
+/*	opacity:1;*/
+	background-color: #122335;
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 10%;
+	left: 0;
+	right: 0;
+}
+
+.screenImage4 {
+	width:80%;
+	height:auto;
+	opacity:1;
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 10%;
+	left: 0;
+	right: 0;
+}
+
+.sellText {
+	display: inline-block;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 5%;
+}
+
+.instructionText {
+	font-family: 'Ubuntu Mono';
+	font-weight: 400;
+	position: relative;
+	padding-left: 10%;
+	padding-right: 10%;
+	text-align: center;
+	font-size:.9em;
+	color: #FFFFFF;
+	top: 80%;
+	z-index: 50;
+/*	margin-right: 100%;
+	margin-left: 100%;*/
+}
