@@ -61,7 +61,7 @@ showWork[3]= select('#fx');
 
 var openPage = [];
 openPage[0] = "http://git-ebetts.github.io/Agile_2";
-openPage[1] = select('#2dDesign');
+openPage[1] = "http://git-ebetts.github.io/Agile_3";
 openPage[2] = ("http://git-ebetts.github.io/Agile_4");
 openPage[3]= select('#fx');
 
@@ -91,7 +91,4 @@ for (i = 0; i < popUp.length; i++) {
 }
 }
 
-// function draw() {
-
-// }
   

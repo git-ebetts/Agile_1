@@ -97,8 +97,6 @@ p {
 .screenImage0 {
 	width:auto;
 	height:360px;
-	/*background-image:url("assets/groupAssign_3.jpg");*/
-/*	opacity:1;*/
 	background-color: #122335;
 	text-align: center;
 	margin-left:auto;
@@ -108,11 +106,22 @@ p {
 	right: 0;
 }
 
+.screenImage1 {
+	width:auto;
+	height:360px;
+	background-color: #122335;
+	display: inline-block;
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 7%;
+	left: 0;
+	right: 0;
+}
+
 .screenImage3 {
 	width:675px;
 	height:auto;
-	/*background-image:url("assets/groupAssign_3.jpg");*/
-/*	opacity:1;*/
 	background-color: #122335;
 	text-align: center;
 	margin-left:auto;
